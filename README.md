@@ -7,6 +7,7 @@
 
 ## Authors
 
+ - Cristóbal Maldonado
  - Peter Magnusson
 
 ## Installation
@@ -66,7 +67,7 @@ Constructor which enables you to set common options for all generated barcodes.
 
 (The MIT License)
 
-Copyright (c) 2011 Peter Magnusson &lt;kmpm@birchroad.net&gt;
+Copyright (c) 2013 Cristóbal Maldonado
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
