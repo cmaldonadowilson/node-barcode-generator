@@ -1,28 +1,28 @@
 {
-  "author": "Peter Magnusson <kmpm@birchroad.net>",
-  "name": "barc",
-  "description": "Library for creating 1D barcodes with node.js. Backed by node-canvas.",
-  "keywords": ["barcode", "canvas", "code 128", "code 2of5"],
-  "version": "0.0.4",
+  "author": "Cristóbal Maldonado W. <cristobal.maldonado@gmail.com>",
+  "name": "barcode-generator",
+  "description": "Library for creating 1D barcodes with node.js",
+  "keywords": ["barcode", "code 128"],
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/birchroad/node-barc"
+    "url": "https://github.com/cristobal151/node-barcode-generator.git"
   },
   "bugs": {
-    "web":"http://github.com/birchroad/node-barc/issues"
+    "web":"https:///github.com/cristobal151/node-barcode-generator/issues"
   },
   "main": "index.js",
   "engines": {
-    "node": ">=v0.4.8"
+    "node": "*"
   },
   "dependencies": {
-      "canvas": ">=0.0.1"
+      "canvas": "*"
   },
   "devDependencies": {},
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/birchroad/node-barc/raw/master/LICENSE"
+      "url": "http://github.com/cristobal151/node-barcode-generator/master/LICENSE"
     }
   ]
 }
