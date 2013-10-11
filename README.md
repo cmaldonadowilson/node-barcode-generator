@@ -14,8 +14,8 @@
     $ npm install barc
 
 ### Dependencies
- [node-canvas](http://github.com/LearnBoost/node-canvas) might have some dependencies to look out for. 
- Node canvas is a [Cairo](http://cairographics.org/) backed Canvas 
+ [node-canvas](http://github.com/LearnBoost/node-canvas) might have some dependencies to look out for.
+ Node canvas is a [Cairo](http://cairographics.org/) backed Canvas
  implementation for [NodeJS](http://nodejs.org).
 
 
@@ -33,12 +33,12 @@
 ### Example
 
 ```javascript
-var Barc = require('barc')
+var Barc = require('barcode-generator')
 	,barc = new Barc()
 	,fs = require('fs');
 
 //create a 300x200 px image with the barcode 1234
-var buf = barc.code2of5('1234', 300, 200);
+var buf = barc.code128('1234', 300, 200);
 fs.writeFile(__dirname + '/example.png', buf, function(){
 	console.log('wrote it');
 });
@@ -63,7 +63,7 @@ Constructor which enables you to set common options for all generated barcodes.
 
 
 
-## License 
+## License
 
 (The MIT License)
 
