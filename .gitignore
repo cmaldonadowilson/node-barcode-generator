@@ -3,3 +3,6 @@
 
 # Netbeans
 /nbproject/
+
+# Idea
+.idea
