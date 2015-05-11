@@ -3,7 +3,7 @@
   "name": "barcode-generator",
   "description": "Library for creating 1D barcodes with node.js",
   "keywords": ["barcode", "code 128"],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/cristobal151/node-barcode-generator.git"
@@ -23,5 +23,8 @@
     {
       "type": "MIT"
     }
+  ],
+  "contributors": [
+    "Tümay Çeber <tumayceber@gmail.com>"
   ]
 }
