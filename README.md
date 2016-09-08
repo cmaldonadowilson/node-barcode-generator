@@ -68,6 +68,7 @@ Constructor which enables you to set common options for all generated barcodes.
 (The MIT License)
 
 Copyright (c) 2011 Peter Magnusson <kmpm@birchroad.net>
+
 Copyright (c) 2013 Cristóbal Maldonado
 
 Permission is hereby granted, free of charge, to any person obtaining
